@@ -1,0 +1,75 @@
+{% extends 'jtgi/base.html' %}
+{% load static %}
+{% load custom_filters %}
+
+{% block meta %}
+    <title>{{lang}}'s page</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% endblock %}
+
+{% block GNB %}
+    <li><a class='btn types' href="{% url 'langs_types' strlang=lang types='recommed' %}">Recomm</a></li>
+    <li><a class='btn types' href="{% url 'langs_types' strlang=lang types='food' %}">Food</a></li>
+    <li><a class='btn types' href="{% url 'langs_types' strlang=lang types='event' %}">Event</a></li>
+{% endblock %}
+
+
+{% block body %}
+<section>
+
+    <div class="boxs">
+
+        {% if lang %}
+            <div class='class'></div>
+        {% endif %}
+        
+        
+        <div>&lt;<a href="{% url 'langs_types' strlang=lang types='recommed' %}">Recommend</a>&gt;</div>
+        <div class='area'>
+            {% for i in context %}
+                {% if str(language_fk) == lang %}
+                    {% if i.is07recommend == 1 %}
+                        <div class='video'>
+                            <a href="https://youtu.be/{{i.video_id}}" target="_blank">
+                                <img src="https://img.youtube.com/vi/{{i.video_id}}/mqdefault.jpg"></img>
+                            </a>
+                        </div>
+                    {% endif %} 
+                {% endif %}
+            {% endfor %}
+        </div>
+            
+        <div>&lt;<a href="{% url 'langs_types' strlang=lang types='food' %}">Food</a>&gt;</div>    
+        <div class='area'>
+            {% for i in context %}
+                {% if str(language_fk) == lang %}
+                    {% if i.is04food == 1 %}
+                        <div class='video'>
+                            <a href="https://youtu.be/{{i.video_id}}" target="_blank">
+                                <img src="https://img.youtube.com/vi/{{i.video_id}}/mqdefault.jpg"></img>
+                            </a>
+                        </div>
+                    {% endif %} 
+                {% endif %} 
+            {% endfor %}
+        </div>
+
+        <div>&lt;<a href="{% url 'langs_types' strlang=lang types='event' %}">Event</a>&gt;</div>
+        <div class='area'>
+            {% for i in context %}
+                {% if str(language_fk) == lang %}
+                    {% if i.is02event == 1 %}
+                        <div class='video'>
+                            <a href="https://youtu.be/{{i.video_id}}" target="_blank">
+                                <img src="https://img.youtube.com/vi/{{i.video_id}}/mqdefault.jpg"></img>
+                            </a>
+                        </div>
+                    {% endif %}
+                {% endif %} 
+            {% endfor %}
+        </div>
+
+    </div>
+
+</section>
+{% endblock %}

@@ -1,0 +1,1784 @@
+@media (max-width: 1600px) {
+  .menu .menu_top .navbar-collapse ul li a {
+    font-size: 16px;
+    padding: 5px 0px !important;
+}
+.menu .menu_top {
+  height: 75px;
+}
+.menu .menu_top .navbar-collapse ul li::after {
+  height: 16px;
+  top: 10px;
+}
+#new_eng::after {
+  width: 99%;
+}
+}
+@media (max-width: 1521px) {
+  .menu .menu_top .navbar-collapse ul li a {
+    font-size: 16px;
+    padding: 5px 0px !important;
+}
+.menu .menu_top {
+  height: 100px;
+}
+.menu .menu_top .navbar-collapse ul li::after {
+  height: 16px;
+  top: 10px;
+}
+#new_eng::after {
+  width: 99%;
+}
+}
+@media (max-width: 1381px) {
+  .menu .menu_top .navbar-collapse ul li a {
+    font-size: 16px;
+    padding: 5px 0px !important;
+}
+.menu .menu_top {
+  height: 135px;
+
+}
+}
+
+/**********************************************************************************************************************************************************************************************/
+
+@media (max-width: 1024px) {
+  .header_item .top .language {
+    padding: 3px 10px;
+    margin-right: 5px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.header_item .top .left{
+  width: 75%;
+}
+.header_item .top p {
+  font-size: 14px;
+}
+
+.header_item .top .right{
+  width: 18%;
+  margin-right: 10px;
+}
+.header_item .top .language a {
+  font-size: 17px;
+}
+.menu .menu_top {
+  width: 100%;
+  height: 100px;
+}
+#header #header_one {
+  height: 425px;
+}
+#header #header_two {
+  height: 240px;
+}
+.menu .menu_top .navbar-collapse ul {
+  justify-content: center;
+}
+
+.menu .menu_top .navbar-collapse ul li a {
+  font-size: 14px;
+}
+.menu_border::after {
+  width: 90%;
+}
+
+
+/************ EN HEADER************/
+.menu #en_menu .navbar-collapse ul li a {
+  padding: 5px 0px !important;
+}
+.menu #en_menu .navbar-collapse ul li {
+  position: relative;
+  width: auto;
+  margin: 0px 8px;
+}
+.menu #en_menu {
+  width: 100%;
+  height: 125px;
+}
+.menu #en_menu .navbar-collapse ul li::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 15px;
+    top: 9px;
+    right: -10px;
+    background: rgb(255, 255, 255);
+}
+.menu #en_menu .navbar-collapse ul li:nth-child(8)::after,
+.menu #en_menu .navbar-collapse ul li:nth-child(16)::after{
+  width: 0px;
+}
+/*****************************/
+#banner img {
+  height: auto;
+}
+/************************/
+#footer {
+  padding: 20px 0px;
+}
+#footer .social_icon ul li img {
+  width: 40px;
+  height: 40px;
+}
+.footer_bottom p {
+  font-size: 16px;
+}
+#footer .footer_menu {
+  padding: 0px 10px 20px;
+}
+#footer .footer_menu .same_title a, #footer .footer_menu .title h6,#footer .footer_menu .title h6 a {
+  font-size: 16px;
+}
+#footer .footer_menu .link a {
+  font-size: 15px;
+}
+
+/* #footer .footer_menu .item:nth-child(4) {
+  width: 40%;
+}
+#footer .footer_menu .item:nth-child(3) {
+  width: 30%;
+}
+#footer .footer_menu .item:nth-child(2) {
+  width: 33%;
+}
+#footer .footer_menu .item:nth-child(1) {
+  width: 30%;
+}
+#footer .footer_menu .item:nth-child(5) {
+  width: 30%;
+} */
+
+/********************/
+#item #oil .car_img{
+  padding: 0px 30px !important;
+}
+#item .top_link ul li:nth-child(3)::after{
+  width: 0px;
+}
+#item .top_link ul li:nth-child(4)::after{
+  width: 2px;
+}
+
+
+#item #food_top_link ul li:nth-child(4)::after {
+  width: 2px;
+}
+#item #food_top_link ul li:nth-child(3)::after {
+  width: 2px;
+}
+
+#item #uopnarrival ul li:nth-child(3)::after {
+  width: 2px;
+}
+#item #uopnarrival ul li:nth-child(4)::after {
+  width: 0px;
+}
+/***************Tokyo*************/
+#item #tokyo_top_link ul li:nth-child(6)::after,
+#item #tokyo_top_link ul li:nth-child(10)::after {
+  width: 0px;
+}
+
+#item #tokyo_top_link ul li:nth-child(7)::after {
+  width: 2px;
+}
+.travel_img {
+  justify-content: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding-right: 10px;
+}
+/**************** uponarrival************/
+
+#item #ride_bus ul li:nth-child(5)::after {
+  width: 2px;
+}
+
+#item #Common_Sense ul li:nth-child(4)::after,
+#item #Common_Sense ul li:nth-child(6)::after{
+  width: 2px;
+}
+#item #Common_Sense ul li:nth-child(5)::after {
+  width: 0px;
+}
+#item #rail_pass ul li:nth-child(5)::after {
+  width: 2px;
+}
+
+#item #onsen ul li:nth-child(3)::after {
+  width: 0px;
+}
+
+#item #ride_train ul li:nth-child(5)::after {
+  width: 2px;
+}
+#item #Upon_Arrival ul li:nth-child(3)::after {
+  width: 0px;
+}
+#item #Upon_Arrival ul li:nth-child(4)::after {
+  width: 2px;
+}
+
+#item #get_lost ul li:nth-child(3)::after {
+  width: 0px;
+}
+
+#item #Flight ul li:nth-child(3)::after,#item #Flight ul li:nth-child(5)::after {
+  width: 2px;
+}
+
+#item #Flight ul li:nth-child(4)::after {
+  width: 0px;
+}
+
+#item #TsukasobaTatami ul li:nth-child(3)::after {
+  width: 2px;
+}
+#item #TsukasobaTatami ul li:nth-child(5)::after {
+  width: 0px;
+}
+
+
+/**************Food***************/
+#ramen_youtube p span:nth-child(2) {
+  width: 36%;
+  padding-right: 10px;
+}
+#ramen_youtube .item p{
+  margin-bottom: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#ramen_youtube p span:nth-child(1) {
+  width: 20%;
+}
+#ramen_youtube p span:nth-child(5) {
+  width: 20%;
+}
+#ramen_youtube p span:nth-child(3) {
+  width: 16%;
+}
+
+
+#item #food .top_link ul li:nth-child(7)::after ,
+#item #food .top_link ul li:nth-child(12)::after{
+  width: 0px;
+}
+#item #food .top_link ul li:nth-child(8)::after {
+  width: 2px;
+}
+/********** 9H ****************/
+.cap_top .left {
+  width: 50%;
+}
+.cap_top .right {
+  width: 50%;
+}
+.cap_top .right_img img {
+  width: 435px;
+  height: 489px;
+}
+#new_item .text_part {
+  width: 445px;
+}
+#new_item .img_part .img_youtube .main_img {
+  width: 445px;
+}
+
+/************ JP TOP *************/
+#jp_top .top_logo img {
+  width: 200px;
+  height: 200px;
+}
+#jp_top .top_logo p {
+  font-size: 14px;
+}
+.same_title .title h3 {
+  font-size: 25px;
+}
+.three .same_text p {
+  line-height: 27px;
+  font-size: 14px;
+}
+
+#jp_top_page h4 {
+  font-size: 23px;
+}
+#jp_top_page {
+  padding: 20px 20px 20px 20px;
+}
+
+/********* WEB CHART *********/
+#myChart, #myChart2, #myChart3, #myChart4 {
+  width: 100%;
+  min-width: 550px !important;
+  height: 300px !important;
+}
+
+
+/************JTGI ***************/
+.text_item p:nth-child(1) {
+  width: 127px;
+}
+.text_item p {
+  margin: 0px 5px;
+  font-size: 14px;
+}
+.text_item p:nth-child(2) {
+  width: 55px;
+}
+.text_item2 p {
+  margin: 0px 5px;
+  font-size: 14px;
+}
+.text_item2 p:nth-child(3) {
+  width: 126px;
+}
+.text_item2 p span {
+  font-size: 14px;
+}
+.text_item2 p:nth-child(4) {
+  width: 60px;
+}
+.text_item2 p:nth-child(1) {
+  width: 165px;
+}
+
+}
+
+
+/**********************************************************************************************************************************************************************************************/
+
+@media (max-width: 991px) {
+
+  #header .navbar-collapse.show{
+    height: auto;
+    margin-bottom: 10px;
+  }
+  #header .navbar-collapse.show.navbar-toggler i {
+    color: red !important;
+  }
+
+  .left_lg4lang {
+    height: 210px;
+    width: 100%;
+    overflow: hidden;
+}
+
+  #header .navbar-collapse {
+    z-index: 999;
+}
+  .header_item .top .right {
+    width: 23%;
+}
+#header #header_one {
+  height: 300px;
+  z-index: -1;
+}
+#header #header_two {
+  height: 210px;
+  z-index: -1;
+}
+.menu .menu_top .navbar-collapse ul li::after{
+  width: 0px;
+}
+.menu #en_menu {
+  width: 100%;
+  height: 50px;
+}
+.bottom {
+  justify-content: flex-start;
+}
+.menu .menu_top .navbar-collapse ul {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: rgb(255, 255, 255);
+  box-shadow: 2px 2px 4px #ccc;
+}
+.menu .menu_top .navbar-collapse ul li {
+  width: 100%;
+  padding-left: 20px;
+}
+.menu_border::after {
+  width: 0%;
+}
+.menu_border {
+  border-bottom: none;
+}
+.menu .menu_top {
+  height: 50px;
+}
+.menu .menu_top .navbar-collapse ul li a {
+  font-size: 16px;
+  text-align: start;
+  color: #000;
+  text-shadow: none;
+}
+.header_item .top .language a {
+  font-size: 12px;
+}
+/* #item .top_title h4 {
+  z-index: -1;
+  position: relative;
+}
+.item_shadow {
+  z-index: -1;
+  position: relative;
+}
+.img_part .img_youtube {
+  position: relative;
+  z-index: -1;
+}
+.same_bg {
+  z-index: -1;
+  position: relative;
+} */
+.culture {
+  justify-content: flex-start;
+}
+.culture #culture_item .culture_img {
+  height: 450px;
+}
+.culture #culture_item {
+  width: 48.5%;
+  margin: 8px 5px;
+  height: 520px;
+}
+
+
+
+#banner img {
+  z-index: -1;
+  position: relative;
+}
+
+
+/* #title .link_title{
+  position: relative;
+  z-index: -1;
+} */
+
+.header_item .navbar-toggler{
+
+  z-index: 999;
+}
+.header_item .navbar-toggler i{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: bold;
+}
+#footer .footer_menu .item:nth-child(1) {
+  width: 30%;
+}
+#footer .footer_menu .item:nth-child(2) {
+  width: 35%;
+}
+#footer .footer_menu .item:nth-child(3) {
+  width: 28%;
+}
+#footer .footer_menu .item {
+  height: auto;
+}
+
+#footer .last_item .bottom_social{
+  position: absolute;
+  bottom: 0;
+}
+#footer .footer_menu .item:nth-child(4) {
+  width: 35%;
+  margin-top: 15px;
+}
+#footer .footer_menu .item:nth-child(5) {
+  width: 65%;
+  margin-top: 15px;
+}
+#footer .social_icon ul li img {
+  width: 35px;
+  height: 35px;
+}
+
+/*******************************/
+.travel_item h4 {
+  font-size: 18px;
+}
+.travel_item p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+/************************************/
+#item .car_item .car_img {
+  padding: 0px 0px 0px 10px;
+}
+#item .car_item .car_link {
+  flex-wrap: wrap;
+}
+#item #oil .car_img {
+  padding: 0px 0px 0px 10px !important;
+}
+#item .top_link ul li:nth-child(4)::after{
+  width: 2px;
+}
+#item .top_link ul li:nth-child(3)::after, #item .top_link ul li:nth-child(5)::after {
+  width: 0px;
+}
+
+#item .cheecking .car_item{
+  flex-direction: column !important;
+}
+
+/**************Tokyo**************/
+#item #tokyo_top_link ul li:nth-child(4)::after,
+#item #tokyo_top_link ul li:nth-child(8)::after
+{
+  width: 0px;
+}
+#item #tokyo_top_link ul li:nth-child(6)::after,
+#item #tokyo_top_link ul li:nth-child(10)::after
+{
+  width: 2px;
+}
+
+#item #basic_japanese ul li:nth-child(3)::after
+{
+  width: 0px;
+}
+#item #basic_japanese ul li:nth-child(4)::after
+{
+  width: 2px;
+}
+
+#item #ride_bus ul li:nth-child(3)::after,
+#item #ride_bus ul li:nth-child(5)::after {
+  width: 0px;
+}
+#item #ride_bus ul li:nth-child(4)::after {
+  width: 2px;
+}
+
+#item #Common_Sense ul li:nth-child(3)::after,
+#item #Common_Sense ul li:nth-child(6)::after{
+  width: 0px;
+}
+#item #Common_Sense ul li:nth-child(5)::after {
+  width: 2px;
+}
+#item #rail_pass ul li:nth-child(5)::after,
+#item #rail_pass ul li:nth-child(4)::after{
+  width: 2px;
+}
+#item #rail_pass ul li:nth-child(3)::after {
+  width: 0px;
+}
+
+#item #onsen ul li:nth-child(2)::after {
+  width: 0px;
+}
+#item #onsen ul li:nth-child(3)::after {
+  width: 2px;
+}
+
+#item #ride_train ul li:nth-child(5)::after,#item #ride_train ul li:nth-child(3)::after {
+  width: 0px;
+}
+#item #ride_train ul li:nth-child(4)::after {
+  width: 2px;
+}
+
+#item #Upon_Arrival ul li:nth-child(2)::after,#item #Upon_Arrival ul li:nth-child(3)::after {
+  width: 0px;
+}
+#item #Upon_Arrival ul li:nth-child(4)::after {
+  width: 2px;
+}
+
+#item #get_lost ul li:nth-child(2)::after {
+  width: 0px;
+}
+#item #get_lost ul li:nth-child(3)::after {
+  width: 2px;
+}
+
+#item #TsukasobaTatami ul li:nth-child(3)::after {
+  width: 0px;
+}
+#item #TsukasobaTatami ul li:nth-child(5)::after {
+  width: 2px;
+}
+
+#item #food .top_link ul li:nth-child(8)::after ,
+#item #food .top_link ul li:nth-child(11)::after{
+  width: 0px;
+}
+#item #food .top_link ul li:nth-child(7)::after ,
+#item #food .top_link ul li:nth-child(12)::after{
+  width: 2px;
+}
+#jtgi_item_request {
+  padding: 100px;
+}
+
+/**************9H **************/
+.cap_top h4 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.cap_top p {
+  line-height: 25px;
+  font-size: 14px;
+  margin: 10px 0px 0px 0px;
+}
+.cap_top .left_img img {
+  width: 175px;
+  height: 185px;
+}
+.cap_top .right_img img {
+  width: 335px;
+  height: 420px;
+}
+.h_title h6 {
+  font-size: 20px;
+  margin: 25px 0px 20px 0px;
+}
+.h_title h6 span {
+  font-size: 20px;
+}
+.h_1h p {
+  padding: 15px 70px;
+  font-size: 16px;
+}
+.h_text p {
+  font-size: 14px;;
+}
+#new_item .text_part {
+  width: auto;
+}
+#new_item .img_part .img_youtube .main_img {
+  width: auto;
+  height: 300px;
+}
+#new_item .text_part small {
+  padding: 5px 0px 0px 0px;
+  margin-bottom: 5px;
+}
+#new_item .text_part p a, #cap_bot_title h4 {
+  font-size: 20px !important;
+}
+#new_item .text_part small {
+  font-size: 13px !important;
+}
+#new_item .text_part small span {
+  font-size: 13px;
+}
+.map_part {
+  flex-direction: column;
+}
+#nine_h .img_part .img_youtube .main_img2 {
+  height: auto;
+  width: 100%;
+}
+
+
+/*********** CHART ************/
+
+.chart_item {
+  flex-direction: column;
+}
+.chart_body{
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chart_body .body_left{
+  width: 100%;
+}
+.chart_body .body_right{
+  width: 100%;
+}
+.body_right::after {
+  width: 0px;
+}
+/************ JP TOP **************/
+#jp_top .three {
+  flex-wrap: wrap;
+}
+.same_item {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.per_img {
+  width: 40%;
+}
+.per_text {
+  width: 60%;
+  padding-bottom: 10px;
+}
+#jp_top_page img {
+  width: 315px;
+  height: 175px;
+}
+#jp_top_page h4 {
+  font-size: 17px;
+}
+#jp_top_page h4::after {
+  height: 19px;
+  bottom: 1px;
+}
+#jp_top_page {
+  padding: 20px 10px 20px 10px;
+}
+.same_title .title h3 {
+  font-size: 22px;
+}
+#jp_top .top_logo h4 {
+  font-size: 22px;
+}
+#jp_top .top_logo img {
+  width: 175px;
+  height: 175px;
+}
+
+
+
+
+}
+
+
+/**********************************************************************************************************************************************************************************************/
+
+@media (max-width: 767px) {
+  #header #header_one {
+    height: 230px;
+}
+#header #header_two {
+  height: 205px;
+}
+  .header_item .top p {
+    font-size: 15px;
+}
+.header_item .top .right {
+  width: 27%;
+}
+.header_item .top .left {
+  width: 70%;
+}
+.header_item .top .language a {
+  font-size: 12px;
+}
+#item .top_title h4 a {
+  font-size: 20px;
+}
+#item .top_title h4 {
+  font-size: 20px;
+}
+.culture #culture_item {
+  width: 47.9%;
+  height: 535px;
+}
+#footer .social_icon ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer_bottom {
+  padding: 5px 0px;
+}
+.footer_bottom p {
+  font-size: 13px;
+  font-weight: 300;
+}
+#footer .footer_menu .item:nth-child(1) {
+  width: 50%;
+}
+#footer .footer_menu .item:nth-child(2) {
+  width: 50%;
+}
+#footer .footer_menu .item:nth-child(3) {
+  width: 50%;
+  margin-top: 15px;
+}
+#footer .footer_menu .item:nth-child(4) {
+  width: 50%;
+}
+#footer .footer_menu .item:nth-child(5) {
+  width: 100%;
+  min-height: 265px;
+}
+
+#footer .bottom_social{
+  float: left;
+}
+/************************************/
+.travel_item {
+  margin: 10px 0px;
+}
+
+/*****************************/
+#item iframe {
+  height: 290px;
+}
+/***********************/
+#item .top_link {
+  width: 100%;
+}
+#item .top_link ul li {
+  margin: 5px 10px;
+}
+#item .top_link ul li::after {
+  right: -10px;
+}
+#item .top_link ul li:nth-child(4)::after, #item .top_link ul li:nth-child(6)::after {
+  width: 2px;
+}
+#item .top_link ul li:nth-child(3)::after, #item .top_link ul li:nth-child(5)::after,
+#item .top_link ul li:nth-child(6)::after {
+  width: 2px;
+}
+#item .top_link ul {
+  margin-bottom: 0px;
+}
+#item .car_item img {
+  width: 250px;
+  height: 185px;
+}
+#item .car_item {
+  min-height: 225px;
+}
+#item #departure .car_item{
+  flex-direction: column !important;
+    align-items: initial;
+    padding: 20px;
+}
+#item #departure .car_item .car_img {
+  margin-top: 0px;
+}
+
+/*************Tokyo*************/
+#item #tokyo_top_link ul li:nth-child(3)::after,
+#item #tokyo_top_link ul li:nth-child(6)::after,
+#item #tokyo_top_link ul li:nth-child(10)::after
+{
+  width: 0px;
+}
+#item #tokyo_top_link ul li:nth-child(4)::after
+{
+  width: 2px;
+}
+
+#item #rail_pass ul li:nth-child(5)::after,
+#item #rail_pass ul li:nth-child(4)::after{
+  width: 2px;
+}
+#item #rail_pass ul li:nth-child(3)::after {
+  width: 0px;
+}
+
+
+#item #Upon_Arrival ul li:nth-child(2)::after,#item #Upon_Arrival ul li:nth-child(3)::after {
+  width: 0px;
+}
+#item #Upon_Arrival ul li:nth-child(4)::after {
+  width: 2px;
+}
+
+#item #TsukasobaTatami ul li:nth-child(3)::after {
+  width: 0px;
+}
+#item #TsukasobaTatami ul li:nth-child(5)::after {
+  width: 2px;
+}
+
+
+#item #food .top_link ul li:nth-child(6)::after ,
+#item #food .top_link ul li:nth-child(9)::after{
+  width: 0px;
+}
+#item #food .top_link ul li:nth-child(5)::after ,
+#item #food .top_link ul li:nth-child(8)::after, 
+#item #food .top_link ul li:nth-child(11)::after{
+  width: 2px;
+}
+
+
+.map_part {
+
+  flex-direction: column;
+  
+}
+
+/************** uponarrival********/
+#item #uoopnarival_title h4 {
+  font-size: 17px;
+}
+#item #uoopnarival_title .top_item {
+  flex-direction: column;
+}
+
+
+/************* FOOD**********/
+#ramen_youtube .item p {
+  margin-bottom: 20px;
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+#ramen_youtube p span:nth-child(1),
+#ramen_youtube p span:nth-child(2) ,
+#ramen_youtube p span:nth-child(3) ,
+#ramen_youtube p span:nth-child(4) ,
+#ramen_youtube p span:nth-child(5)  {
+  width: 100%;
+  position: unset;
+}
+#ramen_youtube {
+  padding: 0px 0px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #cbcbcb;
+}
+#jtgi_item_request {
+  padding: 40px 14px;
+}
+ /************** 9H ***************/
+ .cap_top {
+  margin-top: 10px;
+  flex-direction: column;
+}
+.cap_top .left {
+  width: 100%;
+}
+.cap_top .left_img {
+  position: inherit;
+}
+.cap_top .left_img img {
+  width: 270px;
+  height: 185px;
+  margin: 10px 0px 20px 0px;
+  padding: 0px 10px;
+}
+.cap_top .right {
+  width: 100%;
+}
+.cap_top .right_img img {
+  width: 100%;
+  height: 400px;
+}
+#new_item .img_part .img_youtube .main_img {
+  width: 100%;
+}
+
+/************* CHART **********/
+.web_top p {
+  line-height: 25px;
+  font-size: 14px;
+}
+.chart .chart_text p {
+  font-size: 14px;
+  line-height: 25px;
+}
+.chart {
+  padding: 10px;
+  margin-top: 15px;
+}
+.chart_btn a {
+  padding: 20px 40px;
+  font-size: 20px;
+}
+/************* JP TOP *************/
+#jp_top .top_logo {
+  flex-direction: column;
+}
+#jp_top .top_logo h4 {
+  font-size: 20px;
+  text-align: center;
+}
+.same_item {
+  width: 100%;
+  margin-bottom: 20px;
+  min-height: 275px;
+}
+.jp_person {
+  flex-direction: column;
+}
+.per_text {
+  width: 100%;
+  padding-bottom: 15px;
+}
+.per_img {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#jp_top_page img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+}
+/*************JTGI ***********/
+#sns_bg {
+  margin-top: 0px;
+  min-height: 335px;
+}
+#sns_top_title_text p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.sns_items {
+  min-height: 240px;
+}
+
+
+
+
+}
+/**********************************************************************************************************************************************************************************************/
+
+@media (max-width: 575px) {
+
+  .left_lg4lang {
+    height: 175px;
+    width: 100%;
+    overflow: hidden;
+}
+  #header #header_one {
+    height: 200px;
+}
+#header #header_two {
+  height: 160px;
+}
+  .header_item .top {
+    flex-direction: column;
+    align-items: flex-end;
+}
+.bottom {
+
+  height: auto; 
+ 
+}
+.header_item .navbar-toggler i {
+  font-size: 35px;
+}
+.header_item .top .left {
+  width: 100%;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.header_item .top p {
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: justify;
+}
+.header_item .top .right {
+  width: 42%;
+  margin-left: 5px;
+}
+.img_part .img_youtube .main_img {
+  height: 185px;
+}
+#item {
+  padding: 10px 0px;
+}
+.item_shadow {
+  min-height: 260px;
+}
+/* .item_shadow {
+  height: 275px; */
+
+  #item .top_title h4 a {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#item .top_title h4 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+#item #departure .divide {
+  flex-direction: column;
+}
+
+
+
+.culture #culture_item {
+  width: 100%;
+  margin: 10px 15px;
+  height: 610px;
+}
+#footer {
+  padding: 0px 0px;
+  margin-top: 15px;
+}
+#footer .footer_menu .item {
+  margin-top: 20px;
+}
+#footer .footer_menu .same_title a, #footer .footer_menu .title h6,#footer .footer_menu .title h6 a {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+#footer .footer_menu .item:nth-child(1) {
+  width: 100%;
+}
+#footer .footer_menu .item:nth-child(2) {
+  width: 100%;
+}
+#footer .footer_menu .item:nth-child(3) {
+  width: 100%;
+}
+#footer .footer_menu .item:nth-child(4) {
+  width: 100%;
+}
+#footer .footer_menu .item:nth-child(5) {
+  width: 100%;
+  height: auto !important;
+  position: inherit;
+}
+#footer .last_item .bottom_social {
+  position: inherit;
+  bottom: 0;
+  margin-top: 20px;
+}
+#footer .bottom_social {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+#footer .footer_menu {
+  padding-left: 20px;
+}
+/******************************/
+
+.culture #culture_item .culture_img {
+  height: 550px;
+}
+/****************************/
+#item iframe {
+  height: 200px;
+}
+.crop .crop_item {
+  padding: 10px;
+}
+/*******************************/
+#item .car_item {
+  padding: 15px 5px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#item .top_link ul { 
+  justify-content: flex-start;
+}
+#item .top_link ul li:nth-child(2)::after, #item .top_link ul li:nth-child(4)::after {
+  width: 0px;
+}
+
+#item .car_item .car_img {
+  padding: 0px 0px 0px 0px;
+  margin-top: 15px;
+}
+#item .car_item .car_title h4,
+#item .travel h4 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+#item .car_items .car_title h4 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+#item .car_item img {
+  width: 100%;
+  height: auto;
+}
+#item .car_item .text p, #item .car_item .car_link p, #item .car_item .car_link p a {
+  text-align: justify;
+}
+#item .car_item {
+  min-height: 165px;
+}
+.travel_body {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+  margin: 10px 0px;
+}
+.travel_item {
+  padding: 10px 10px 10px 10px;
+}
+/*************SHABU***************/
+.shabu_item {
+  flex-direction: column;
+}
+#sabu_bottom h1 {
+  margin-top: 30px;
+}
+
+#item #food_top_link ul li:nth-child(2)::after {
+  width: 2px;
+}
+
+
+.shabu img{
+  width: 100%;
+}
+.shabu h2 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.shabu h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.shabu_item .one {
+  width: 100%;
+}
+.shabu_item .two {
+  width: 100%;
+}
+.shabu_item .three {
+  width: 100%;
+}
+.shabu_item .four {
+  width: 100%;
+}
+.shabu_item .five {
+  width: 100%;
+}
+
+/*************Tokyo*************/
+#item #tokyo_top_link ul li:nth-child(1)::after,
+#item #tokyo_top_link ul li:nth-child(5)::after,
+#item #tokyo_top_link ul li:nth-child(7)::after,
+#item #tokyo_top_link ul li:nth-child(9)::after
+{
+  width: 0px;
+}
+
+/*************** uponarrival**********/
+#item #uoopnarival_title h4 {
+  font-size: 15px;
+}
+#item #uopnarrival ul li:nth-child(3)::after {
+  width: 0px;
+}
+#item #uopnarrival ul li:nth-child(4)::after {
+  width: 2px;
+}
+
+#item #Common_Sense ul li:nth-child(3)::after {
+  width: 2px;
+}
+
+#item #rail_pass ul li:nth-child(5)::after {
+  width: 2px;
+}
+#item #rail_pass ul li:nth-child(4)::after {
+  width: 0px;
+}
+
+#item #onsen ul li:nth-child(1)::after,#item #onsen ul li:nth-child(4)::after {
+  width: 0px;
+}
+
+
+#item #Upon_Arrival ul li:nth-child(1)::after,#item #Upon_Arrival ul li:nth-child(4)::after {
+  width: 0px;
+}
+
+#item #get_lost ul li:nth-child(1)::after, #item #get_lost ul li:nth-child(4)::after{
+  width: 0px;
+}
+
+#item #Flight ul li:nth-child(3)::after {
+  width: 2px;
+}
+
+#item #Flight ul li:nth-child(4)::after {
+  width: 0px;
+}
+#item #TsukasobaTatami ul li:nth-child(3)::after {
+  width: 2px;
+}
+#item #TsukasobaTatami ul li:nth-child(5)::after {
+  width: 0px;
+}
+
+
+#item #food .top_link ul li:nth-child(4)::after ,
+#item #food .top_link ul li:nth-child(8)::after ,
+#item #food .top_link ul li:nth-child(10)::after{
+  width: 0px;
+}
+#item #food .top_link ul li:nth-child(6)::after ,
+#item #food .top_link ul li:nth-child(9)::after{
+  width: 2px;
+}
+
+
+
+
+.link_part p span {
+  /* width: 100%; */
+  display: block;
+}
+.map_part .map iframe {
+  width: 100% !important;
+}
+.map_part {
+  padding: 10px;
+}
+.map_link p,.map_link p span {
+  font-size: 14px;
+}
+#TsukasobaTatami .item_shadow {
+  min-height: 200px;
+}
+.img_part .img_youtube .main_img2 {
+  height: 200px;
+}
+#TsukasobaTatami h4{
+  font-size: 20px;
+}
+.map {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 100%;
+  /* flex-direction: revert; */
+  margin: 0 auto;
+}
+.text_part2 p {
+  font-size: 14px;
+}
+.ramen_text p{
+  font-size: 12px;
+  line-height: 26px;
+}
+#item #ramen .text_part h5 {
+  font-size: 16px;
+}
+#ramen_youtube h4 {
+  font-size: 18px;
+}
+#item .top_link ul li a {
+  font-size: 14px;
+}
+
+.jtgi_item {
+  margin: 10px 0px;
+  padding: 10px;
+}
+.jtgi_item .bottom {
+  margin: 10px 0px;
+  padding: 10px;
+}
+.jtgi_btn a {
+  padding: 10px 8px;
+  font-size: 12px;
+  /* width: 100%; */
+}
+#about h6 {
+  font-size: 14px;
+}
+#jtgi_item_request {
+  padding: 20px 10px;
+}
+.jtgi_top p, .jtgi_top p a {
+  text-align: justify;
+}
+
+/************* About Us***************/
+
+
+/********** 9H **************/
+.cap_top h4 {
+  font-size: 18px;
+}
+.cap_top .left_img {
+  flex-direction: column;
+}
+.cap_top .left_img img {
+  width: 100%;
+  height: 185px;
+  margin: 10px 0px 20px 0px;
+  padding: 0px 0px; 
+}
+.cap_top .right_img img {
+  width: 100%;
+  height: 300px;
+}
+.h_1h p {
+  padding: 10px 10px;
+  font-size: 12px;
+}
+.h_1h p span {
+  font-size: 14px;
+}
+.h_title h6 {
+  font-size: 18px;
+  margin: 15px 0px 15px 0px;
+}
+#cap_four .item_shadow {
+  min-height: 215px;
+}
+#new_item .img_part .img_youtube .main_img {
+  height: 220px;
+}
+#new_item .text_part p a, #cap_bot_title h4 {
+  font-size: 18px !important;
+}
+.h_title h6 span {
+  font-size: 18px;
+}
+.h_text {
+  margin-bottom: 20px;
+}
+
+
+/************** CHART *************/
+
+#myChart4 rect{
+  width: 200px !important;
+}
+.chart_top h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.chart_item {
+  flex-direction: column;
+}
+.chart_left_title p, .chart_right_title p {
+  font-size: 15px;
+}
+.chart_left_title p span, .chart_right_title p span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.chart_item h6 {
+  font-size: 20px;
+}
+.chart_btn a {
+  padding: 10px 15px;
+  font-size: 15px;
+
+}
+#myChart, #myChart2, #myChart3, #myChart4 {
+  width: 100%;
+  min-width: 400px !important;
+  height: 200px !important;
+}
+/********** JP TOP ************/
+#jp_top .top_logo {
+  padding: 10px;
+}
+#jp_top .top_logo img {
+  width: 145px;
+  height: 145px;
+}
+#jp_top .top_logo h4 {
+  font-size: 18px;
+}
+.same_banner {
+  width: 45px;
+  height: 40px;
+  font-size: 18px;
+}
+.same_banner::after {
+  bottom: -19px;
+  border-width: 0 22.5px 20px;
+}
+.same_title .title h3 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.three .same_text {
+  margin-top: 25px;
+}
+.top_youtube a {
+  font-size: 14px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+.top_youtube {
+  margin-top: 10px;
+}
+#jp_top_page h4 {
+  font-size: 15px;
+  margin-left: 11px;
+}
+.per_text p {
+  font-size: 14px;
+  line-height: 26px;
+}
+/**********JTGI**************/
+#sns_top_title_text {
+  margin: 10px 0px;
+}
+.jtgiservice {
+  padding: 10px;
+}
+.capacity_data {
+  font-size: 17px;
+  margin-bottom: 0px;
+}
+.capanumber p{
+  font-size: 14px;
+}
+.capacity_link {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.capacity h1 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.jtgiservice h5 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+#jtgiservice2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#jtgiservice2 .jtgiicon2:first-child {
+  margin-bottom: 15px;
+}
+#jtgiservice2 .jtgiicon2{
+  width: 100%;
+}
+
+.sns_text {
+  width: 100%;
+  margin-top: 20px;
+}
+.text_item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.text_item:last-child{
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.text_item p:nth-child(1) {
+  text-align: start;
+}
+.text_item p:nth-child(2) {
+  text-align: start;
+}
+.text_item p:nth-child(3) {
+  text-align: start;
+}
+.text_item p:nth-child(4) {
+  text-align: start;
+}
+.sns_items .sns_top h2 {
+  font-size: 18px;
+  font-weight: bold;
+   margin-left: 10px;
+  text-align: center;
+}
+.sns_bottom h2 {
+  font-size: 20px;
+  margin: 20px 0px 10px 0px;
+}
+#sns_bg h2 {
+  font-size: 20px;
+}
+#sns_heading h4{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#sns_heading p{
+  font-size: 14px;
+}
+.sns_top_title p{
+  font-size: 14px;
+}
+.sns_center p{
+  font-size: 14px;
+}
+
+.text_item2 {
+  justify-content: flex-start;
+  align-items: self-start;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+.text_item2:last-child{
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.text_item2 p:nth-child(1) {
+  text-align: start;
+}
+.text_item2 p:nth-child(2) {
+  text-align: start;
+}
+.text_item2 p:nth-child(3) {
+  text-align: start;
+}
+.text_item2 p:nth-child(4) {
+  text-align: start;
+}
+.sns_btn a {
+  width: 250px;
+  font-size: 16px;
+  height: 45px;
+}
+.capanumber_item p span {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 285px) {
+  .header_item .top .right {
+    width: 55%;
+}
+.item_shadow {
+  height: 295px;
+}
+}
+
+
+
+@media
+only screen 
+and (max-width: 991px)  {
+
+#demo table, thead, tbody, th, td, tr {
+  display: block;
+}
+
+#demo  thead tr {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+#demo  tr {
+  margin: 0 0 1rem 0;
+}
+
+
+#demo  td {
+  border: none;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-left: 55%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#demo  td:before {
+
+  position: absolute;
+  
+  top: 3px;
+  left: 6px;
+  width: 47%;
+}
+
+
+#demo  td:nth-of-type(1):before { content: "SNS promotion service"; }
+#demo  td:nth-of-type(2):before { content: "180 language translation / interpretation business"; }
+#demo  td:nth-of-type(3):before { content: "Foreign personnel introduction dispatch business"; }
+#demo  td:nth-of-type(4):before { content: "Overseas research and consulting business"; }
+#demo  td:nth-of-type(5):before { content: "Cloud service"; }
+
+#demo #about_jp  td:nth-of-type(1):before { content: "SNSプロモーションサービス"; }
+#demo #about_jp  td:nth-of-type(2):before { content: "180ヶ国語翻訳・通訳事業"; }
+#demo #about_jp  td:nth-of-type(3):before { content: "外国人派遣紹介事業"; }
+#demo #about_jp  td:nth-of-type(4):before { content: "海外リサーチコンサルティング事業"; }
+#demo #about_jp  td:nth-of-type(5):before { content: "クラウドサービス"; }
+
+#about_us table tr {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+
+.sub_index_table th {
+  width: 100%; 
+  padding: 8px 5px 8px 10px;
+}
+.sub_index_table td {
+  padding: 2px 0 5px 10px;
+}
+.sub_index_table td span{
+  display: block;
+}
+.sub_index_table th {
+  width: 100%;
+  background: #ebebeb;
+  color: #494949;
+  padding: 10px 5px 10px 10px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 12px;
+  border-bottom: 1px solid #fff;
+}
+.s_none{
+  display: none;
+}
+#about table tr th, #about table tr td {
+  width: 100%;
+}
+#about table tr th,
+#about table tr td{
+    white-space: unset;
+}
+#about table .t_heading{
+  font-weight: bold;
+  font-size: 14px;
+  color: #494949;
+}
+
+}

@@ -1,0 +1,116 @@
+{% extends 'jtgi/base.html' %}
+{% load static %}
+
+{% block meta %}
+<title>일본관광객 대상 웹마케팅, 동영상마케팅을 통한 관광객 유치 | Korea Travel Guide Info</title>
+<meta name="keywords" content="일본관광,일본영행,정보지,Web마케팅,동영상마케팅,관광객,유치,일본,전통,문화,여행,투어,홋카이도,센다이,도쿄,오사카,나고야,후쿠오카,교토,히로시마,니가타,고베,나라,홋카이도,오키나와,시코쿠,아이치,치바" />
+<meta name="description" content="Korea Travel Guide Info은 방일 여행자에게 일본의 정보를 발신하는 WEB 매거진입니다.일본의 전통, 문화, 축제, 자연 등 여행 정보나 체험 정보를 방일 외국인 및 거주 외국인 전용의 정보 매거진으로 동시에 Youtube, Tiktok, 페이스북, 인스타그램 등에 동시에 전달하는 서비스입니다." />
+
+<link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+<link rel="stylesheet" href="{% static '/css/font.css' %}" />
+<link rel="stylesheet" href="{% static '/css/style3.css' %}" />
+<link rel="stylesheet" href="{% static '/css/responsive.css' %}" />
+<script src="{% static 'js/main.js' %}"></script>
+{% endblock %}
+
+{% block header %}
+<div id="header">
+    <div class="header_item" id="header_two">
+
+        <div class="top">
+            <div class="left ">
+                <p>{{ lang.title }}</p>
+            </div>
+            <div class="right ">
+
+                <div class="language">
+                    <div class="dropdown">
+                        <button disabled type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                            Language
+                        </button>
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <a class="dropdown-item" id="active_part" href="/">한국어</a>
+                            <a class="dropdown-item" href="/en/">ENGLISH</a>
+                            <a class="dropdown-item" href="/jp/">日本語</a>
+                            <a class="dropdown-item" href="/cn/">中文 (简体)</a>
+                            <a class="dropdown-item" href="/tw/">中文 (繁體)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="menu">
+
+                <div class="menu_top">
+                    <nav class="navbar navbar-expand-lg p-0">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="bi bi-list"></i>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}">HOME </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}trend/">{{ lang.trend }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}event/">{{ lang.event }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}shock/">{{ lang.shock }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}interest/">{{ lang.interest }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}howtotravel/">{{ lang.howtotravel }}</a>
+                                </li>
+
+                                <div class="menu_border"></div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}recommend/">{{ lang.recommend }}</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}travelersuggestion/">{{ lang.travelersuggestion }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}food/">{{ lang.food }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}city/">{{ lang.city }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}commonsense/">{{ lang.commonsense }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}citymap/">{{ lang.citymap }}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block body %}
+<div id="404">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 p-sm-0 p-2 mt-5 mb-5 text-center">
+          <h2>현재 홈페이지 공사중입니다.</h2>
+          <img src="{% static 'img/404.png' %}" alt="banner" class="img-fluid" style="width: 70px;">
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

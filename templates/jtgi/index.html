@@ -1,0 +1,28 @@
+{% extends 'jtgi/base.html' %}
+{% load static %}
+
+{% block meta %}
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% endblock %}
+
+{% block GNB %}
+    <li><a class='btn types' href="{% url 'langs_types' strlang='none' types='recommed' %}">Recomm</a></li>
+    <li><a class='btn types' href="{% url 'langs_types' strlang='none' types='food' %}">Food</a></li>
+    <li><a class='btn types' href="{% url 'langs_types' strlang='none' types='event' %}">Event</a></li>
+{% endblock %}
+
+
+{% block body %}
+
+<div class='bulkarea'>
+    {% for i in context %}
+    <div class='video'>
+        <a href="https://youtu.be/{{i.videoid}}" target="_blank">
+            <img src="https://img.youtube.com/vi/{{i.videoid}}/mqdefault.jpg"></img>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

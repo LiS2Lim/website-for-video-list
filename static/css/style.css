@@ -1,0 +1,90 @@
+.boxs {
+    padding: 10px;
+    background-color: bisque;
+}
+
+.area {
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    min-width: 440px;
+    height: 186px;  
+    display: flex;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+    border: solid 1px gray;
+    overflow: hidden;
+    width: 320px;
+    height: 180px;
+}
+
+.video:hover {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.bulkarea {
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    min-width: 440px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.drop {
+    position : relative;
+    display : inline-block;
+}
+
+.dropbtn {
+    border : 1px solid rgb(37, 37, 37);
+    border-radius : 4px;
+    background-color: #f5f5f5;
+    font-weight: 400;
+    color : rgb(37, 37, 37);
+    padding : 12px;
+    width :100px;
+    text-align: left;
+    cursor : pointer;
+    font-size : 12px;
+}
+
+.dropitems {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    font-weight: 400;
+    background-color: #f9f9f9;
+    min-width : 100px;
+}
+
+.dropitems a {
+    display: block;
+    text-decoration : none;
+    color : rgb(37, 37, 37);
+    font-size: 12px;
+    padding : 12px 20px;
+}
+
+.dropitems a:hover{
+    background-color : #ececec
+  }
+
+.drop:hover .dropitems {
+    display: block;
+}
+
+header {
+    display: flex;
+}
+
+header a {
+    display: block;
+}

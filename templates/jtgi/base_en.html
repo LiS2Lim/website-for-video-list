@@ -1,0 +1,48 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image" href="{% static 'img/favicon.png' %}" />
+    {% block meta %}
+    {% endblock meta %}
+</head>
+
+<body>
+
+{% block header %}
+{% endblock header %}
+
+it is base_en
+
+{% block body %}
+{% endblock body %}
+
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 p-sm-0 p-2">
+        <kr-footer></kr-footer>
+      </div>
+      <div class="col-12">
+        <div class="bottom_social" >
+          <ul>
+            <li><a href="https://www.youtube.com/channel/UC0u7mVIpRdNehBanANORptA" target="blank"> <img src="./images/Group 228.png" alt="" class="img-fluid"></a></li>
+            <li><a href="https://business.facebook.com/japantravelguideinfo" target="blank"> <img src="./images/Group 229.png" alt="" class="img-fluid"></a></li>
+            <li><a href="https://www.instagram.com/japan.travel.guide.info/" target="blank"> <img src="./images/Group 230.png" alt="" class="img-fluid"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer_bottom text-center">
+  <div class="bottom_title text-center">
+    <p>Copy right by Korea Travel Guide Info 2022</p>
+  </div>
+</div>
+
+</body>
+</html>

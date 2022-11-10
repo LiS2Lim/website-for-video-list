@@ -1,0 +1,323 @@
+{% extends 'jtgi/base.html' %}
+  
+{% load static %}
+
+{% block meta %}
+<title>{{ lang.title }}</title>
+<meta name="keywords" content="{{ lang.keyword }}" />
+<meta name="description" content="{{ lang.description }}" />
+
+<link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+<link rel="stylesheet" href="{% static '/css/font.css' %}" />
+<link rel="stylesheet" href="{% static '/css/style3.css' %}" />
+<link rel="stylesheet" href="{% static '/css/responsive.css' %}" />
+<script src="{% static 'js/main.js' %}"></script>
+{% endblock %}
+
+
+{% block header %}
+<div id="header">
+    <div class="header_item" id="header_two">
+
+        <div class="top">
+            <div class="left ">
+                <p>{{ lang.title }}</p>
+            </div>
+            <div class="right ">
+
+                <div class="language">
+                    <div class="dropdown">
+                        <button disabled type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                            Language
+                        </button>
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <a class="dropdown-item" id="active_part" href="/">한국어</a>
+                            <a class="dropdown-item" href="/en/">ENGLISH</a>
+                            <a class="dropdown-item" href="/jp/">日本語</a>
+                            <a class="dropdown-item" href="/cn/">中文 (简体)</a>
+                            <a class="dropdown-item" href="/tw/">中文 (繁體)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="menu">
+
+                <div class="menu_top">
+                    <nav class="navbar navbar-expand-lg p-0">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="bi bi-list"></i>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}">HOME </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}trend/">{{ lang.trend }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}event/">{{ lang.event }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}shock/">{{ lang.shock }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}interest/">{{ lang.interest }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}howtotravel/">{{ lang.howtotravel }}</a>
+                                </li>
+
+                                <div class="menu_border"></div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}recommend/">{{ lang.recommend }}</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}travelersuggestion/">{{ lang.travelersuggestion }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}food/">{{ lang.food }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}city/">{{ lang.city }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}commonsense/">{{ lang.commonsense }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url }}citymap/">{{ lang.citymap }}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block body %}
+<div id="item">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 p-0 pl-sm-0 pl-3">
+        <div class="top_title">
+          <h4><a href="{{ url }}event/">{{ lang.event }}</a></h4>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      {% for video in event %}
+
+      <div class="col-lg-3 col-sm-6 col-12 pl-sm-0 pl-3 mb-lg-4 mb-3">
+        <div class="item_shadow">
+          {% comment %} <!--이미지파트--> {% endcomment %}
+          <div class="img_part">
+            <div class="img_youtube">
+              <img src="https://img.youtube.com/vi/{{video.video_id}}/mqdefault.jpg" alt="" class="img-fluid main_img" />
+              <div class="middle_icon">
+                <a href="https://youtu.be/{{ video.video_id }}" target="blank">
+                  <img src="{% static 'img/youtube.png' %}" alt="youtube" class="img-fluid"></a>
+              </div>
+            </div>
+          </div>
+          {% comment %} <!--타이틀파트--> {% endcomment %}
+          <div class="text_part">
+            <p>{{ video.video_name }}</p>
+          </div>
+          {% comment %} <!--SNS파트--> {% endcomment %}
+          <div class="social_part">
+            <div class="left">
+
+            </div>
+            <div class="right">
+              <ul>
+                <li><a href="https://youtu.be/{{ video.video_id }}" target="blank"><img src="{%static 'img/youtube-icon.png'%}" alt="" class="img-fluid"></a></li>
+                <li><a href="https://www.facebook.com/japantravelguideinfo/" target="blank"><img src="{%static 'img/facebook-icon.png'%}" alt="" class="img-fluid"></a></li>
+                <li><a href="https://www.instagram.com/japan.travel.guide.info/" target="blank"><img src="{%static 'img/instagram-icon.png'%}" alt="" class="img-fluid"></a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+{% comment %} <!------------------- Start Part ------------------> {% endcomment %}
+
+<div id="item">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 p-0 pl-sm-0 pl-3">
+        <div class="top_title">
+          <h4><a href="{{ url }}food/">{{ lang.food }}</a></h4>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      {% for video in food %}
+
+      <div class="col-lg-3 col-sm-6 col-12 pl-sm-0 pl-3 mb-lg-4 mb-3">
+        <div class="item_shadow">
+          {% comment %} <!--이미지파트--> {% endcomment %}
+          <div class="img_part">
+            <div class="img_youtube">
+              <img src="https://img.youtube.com/vi/{{video.video_id}}/mqdefault.jpg" alt="" class="img-fluid main_img" />
+              <div class="middle_icon">
+                <a href="https://youtu.be/{{ video.video_id }}" target="blank">
+                  <img src="{% static 'img/youtube.png' %}" alt="youtube" class="img-fluid"></a>
+              </div>
+            </div>
+          </div>
+          {% comment %} <!--타이틀파트--> {% endcomment %}
+          <div class="text_part">
+            <p>{{ video.video_name }}</p>
+          </div>
+          {% comment %} <!--SNS파트--> {% endcomment %}
+          <div class="social_part">
+            <div class="left">
+
+            </div>
+            <div class="right">
+              <ul>
+                <li><a href="https://youtu.be/{{ video.video_id }}" target="blank"><img src="{%static 'img/youtube-icon.png'%}" alt="" class="img-fluid"></a></li>
+                <li><a href="https://www.facebook.com/japantravelguideinfo/" target="blank"><img src="{%static 'img/facebook-icon.png'%}" alt="" class="img-fluid"></a></li>
+                <li><a href="https://www.instagram.com/japan.travel.guide.info/" target="blank"><img src="{%static 'img/instagram-icon.png'%}" alt="" class="img-fluid"></a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+{% comment %} <!------------------- Start Part ------------------> {% endcomment %}
+
+<div id="item">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 p-0 pl-sm-0 pl-3">
+        <div class="top_title">
+          <h4><a href="{{ url }}city/">{{ lang.city }}</a></h4>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      {% for video in city %}
+
+      <div class="col-lg-3 col-sm-6 col-12 pl-sm-0 pl-3 mb-lg-4 mb-3">
+        <div class="item_shadow">
+          {% comment %} <!--이미지파트--> {% endcomment %}
+          <div class="img_part">
+            <div class="img_youtube">
+              <img src="https://img.youtube.com/vi/{{video.video_id}}/mqdefault.jpg" alt="" class="img-fluid main_img" />
+              <div class="middle_icon">
+                <a href="https://youtu.be/{{ video.video_id }}" target="blank">
+                  <img src="{% static 'img/youtube.png' %}" alt="youtube" class="img-fluid"></a>
+              </div>
+            </div>
+          </div>
+          {% comment %} <!--타이틀파트--> {% endcomment %}
+          <div class="text_part">
+            <p>{{ video.video_name }}</p>
+          </div>
+          {% comment %} <!--SNS파트--> {% endcomment %}
+          <div class="social_part">
+            <div class="left">
+
+            </div>
+            <div class="right">
+              <ul>
+                <li><a href="https://youtu.be/{{ video.video_id }}" target="blank"><img src="{%static 'img/youtube-icon.png'%}" alt="" class="img-fluid"></a></li>
+                <li><a href="https://www.facebook.com/japantravelguideinfo/" target="blank"><img src="{%static 'img/facebook-icon.png'%}" alt="" class="img-fluid"></a></li>
+                <li><a href="https://www.instagram.com/japan.travel.guide.info/" target="blank"><img src="{%static 'img/instagram-icon.png'%}" alt="" class="img-fluid"></a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+{% comment %} <!------------------- Start Part ------------------> {% endcomment %}
+
+<div id="item">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 p-0 pl-sm-0 pl-3">
+        <div class="top_title">
+          <h4><a href="{{ url }}recommend/">{{ lang.recommend }}</a></h4>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      {% for video in reco %}
+
+      <div class="col-lg-3 col-sm-6 col-12 pl-sm-0 pl-3 mb-lg-4 mb-3">
+        <div class="item_shadow">
+          {% comment %} <!--이미지파트--> {% endcomment %}
+          <div class="img_part">
+            <div class="img_youtube">
+              <img src="https://img.youtube.com/vi/{{video.video_id}}/mqdefault.jpg" alt="" class="img-fluid main_img" />
+              <div class="middle_icon">
+                <a href="https://youtu.be/{{ video.video_id }}" target="blank">
+                  <img src="{% static 'img/youtube.png' %}" alt="youtube" class="img-fluid"></a>
+              </div>
+            </div>
+          </div>
+          {% comment %} <!--타이틀파트--> {% endcomment %}
+          <div class="text_part">
+            <p>{{ video.video_name }}</p>
+          </div>
+          {% comment %} <!--SNS파트--> {% endcomment %}
+          <div class="social_part">
+            <div class="left">
+
+            </div>
+            <div class="right">
+              <ul>
+                <li><a href="https://youtu.be/{{ video.video_id }}" target="blank"><img src="{%static 'img/youtube-icon.png'%}" alt="" class="img-fluid"></a></li>
+                <li><a href="https://www.facebook.com/japantravelguideinfo/" target="blank"><img src="{%static 'img/facebook-icon.png'%}" alt="" class="img-fluid"></a></li>
+                <li><a href="https://www.instagram.com/japan.travel.guide.info/" target="blank"><img src="{%static 'img/instagram-icon.png'%}" alt="" class="img-fluid"></a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}

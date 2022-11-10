@@ -1,0 +1,89 @@
+{% extends 'jtgi/base.html' %}
+{% load static %}
+
+{% block meta %}
+    <title>{{lang}}-{{types}}'s page</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% endblock %}
+
+{% block GNB %}
+    <li><a class='btn types' href="{% url 'langs_types' strlang=lang types='recommed' %}">Recomm</a></li>
+    <li><a class='btn types' href="{% url 'langs_types' strlang=lang types='food' %}">Food</a></li>
+    <li><a class='btn types' href="{% url 'langs_types' strlang=lang types='event' %}">Event</a></li>
+{% endblock %}
+
+{% block body %}
+        <div class='bulkarea'>
+            {% for i in context %}
+
+                {% if lang == 'none' %}
+
+                    {% if types == 'recommed' %}
+                        {% if i.is07recommend == 1 %}
+                            <div class='video'>
+                                <a href="https://youtu.be/{{i.video_id}}" target="_blank">
+                                    <img src="https://img.youtube.com/vi/{{i.video_id}}/mqdefault.jpg"></img>
+                                </a>
+                            </div>
+                        {% endif %} 
+                    {% endif %}
+                
+                    {% if types == 'food' %}
+                        {% if i.is04food == 1 %}
+                        <div class='video'>
+                            <a href="https://youtu.be/{{i.video_id}}" target="_blank">
+                                <img src="https://img.youtube.com/vi/{{i.video_id}}/mqdefault.jpg"></img>
+                            </a>
+                        </div>
+                        {% endif %} 
+                    {% endif %}
+                
+                    {% if types == 'event' %}
+                        {% if i.is02event == 1 %}
+                        <div class='video'>
+                            <a href="https://youtu.be/{{i.video_id}}" target="_blank">
+                                <img src="https://img.youtube.com/vi/{{i.video_id}}/mqdefault.jpg"></img>
+                            </a>
+                        </div>
+                        {% endif %} 
+                    {% endif %}    
+
+                {% else %}
+
+                    {% if str(language_fk) == lang %}
+                        {% if types == 'recommed' %}
+                            {% if i.is07recommend == 1 %}
+                                    <div class='video'>
+                                        <a href="https://youtu.be/{{i.video_id}}" target="_blank">
+                                            <img src="https://img.youtube.com/vi/{{i.video_id}}/mqdefault.jpg"></img>
+                                        </a>
+                                    </div>
+                            {% endif %} 
+                        {% endif %}
+                            
+                        {% if types == 'food' %}
+                            {% if i.is04food == 1 %}
+                            <div class='video'>
+                                <a href="https://youtu.be/{{i.video_id}}" target="_blank">
+                                    <img src="https://img.youtube.com/vi/{{i.video_id}}/mqdefault.jpg"></img>
+                                </a>
+                            </div>
+                            {% endif %} 
+                        {% endif %}
+                            
+                        {% if types == 'event' %}
+                            {% if i.is02event == 1 %}
+                            <div class='video'>
+                                <a href="https://youtu.be/{{i.video_id}}" target="_blank">
+                                    <img src="https://img.youtube.com/vi/{{i.video_id}}/mqdefault.jpg"></img>
+                                </a>
+                            </div>
+                            {% endif %} 
+                        {% endif %}
+                    {% endif %}    
+
+                {% endif %}
+
+            {% endfor %}
+        </div>
+{% endblock %}
